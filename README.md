@@ -24,5 +24,8 @@ The repository publishes from the `main` branch, `/(root)` folder. Pushes to `ma
 - `styles.css` — visual design and responsive layout
 - `resume.html` — accessible, print-friendly résumé
 - `Parag-Gulati-Backend-Engineer-Resume.pdf` — downloadable, selectable-text résumé
+- `parag-gulati-avatar.png` — portrait from Parag's public GitHub profile
+- `social-preview.jpg` — social sharing preview image
+- `sitemap.xml` and `robots.txt` — search discovery files
 
 Project facts and metrics are based on the résumé supplied by Parag. The case studies describe his contributions rather than claiming ownership of entire products.

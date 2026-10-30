@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parag9990.github.io/ParagPortfolio/sitemap.xml
