@@ -2,6 +2,8 @@
 
 A fast, static portfolio and ATS-friendly résumé for Parag Gulati. The site highlights five engineering projects from his work at MultiTV Tech Solutions: Kutingg, Momentus, Media-Morph, Art of Living, and Law & Crime.
 
+**Live site:** https://parag9990.github.io/ParagPortfolio/
+
 ## Preview locally
 
 From the repository root:
@@ -12,9 +14,9 @@ python3 -m http.server 8000
 
 Open `http://localhost:8000/`. No build step or dependencies are required.
 
-## Publish with GitHub Pages
+## GitHub Pages publishing
 
-In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and select `/(root)`. GitHub Pages will publish the site at `https://parag9990.github.io/ParagPortfolio/` after the build completes.
+The repository publishes from the `main` branch, `/(root)` folder. Pushes to `main` update the live site automatically.
 
 ## Edit content
 
