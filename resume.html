@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ATS-friendly resume for Parag Gulati, Go backend engineer.">
+    <title>Résumé | Parag Gulati</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <style>
+      :root { font-family: Arial, Helvetica, sans-serif; color: #1b2730; background: #eef1f2; }
+      * { box-sizing: border-box; }
+      body { margin: 0; line-height: 1.48; font-size: 14px; }
+      a { color: #126971; text-underline-offset: 2px; }
+      a:focus-visible { outline: 2px solid #126971; outline-offset: 3px; }
+      .toolbar { max-width: 860px; margin: 26px auto 16px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: center; }
+      .toolbar a { font-size: 13px; font-weight: 700; text-decoration: none; }
+      .toolbar .download { padding: 9px 13px; color: white; background: #126971; border-radius: 3px; }
+      main { max-width: 860px; margin: 0 auto 45px; padding: 48px 54px 56px; background: white; box-shadow: 0 15px 45px #1b273012; }
+      header { padding-bottom: 17px; border-bottom: 2px solid #1b2730; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 { margin-bottom: 3px; font-size: 30px; letter-spacing: -.03em; }
+      .headline { margin-bottom: 10px; font-size: 15px; font-weight: 700; }
+      .contact { margin: 0; font-size: 12px; line-height: 1.7; }
+      .contact a { color: inherit; }
+      section { margin-top: 24px; }
+      h2 { margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid #aab5b9; font-size: 14px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+      h3 { margin: 0 0 4px; font-size: 15px; }
+      .job-head { display: flex; justify-content: space-between; gap: 15px; align-items: baseline; }
+      .job-head span { flex: 0 0 auto; font-size: 12px; font-weight: 700; }
+      .company { margin: 0 0 11px; font-weight: 700; }
+      .project { margin-top: 14px; }
+      .project h3 { font-size: 13px; }
+      p { margin-bottom: 8px; }
+      ul { margin: 5px 0 0; padding-left: 19px; }
+      li { margin-bottom: 5px; padding-left: 2px; }
+      .skill-row { margin-bottom: 6px; }
+      .skill-row strong { font-weight: 700; }
+      .education-item { margin-bottom: 12px; }
+      .education-item h3 { margin: 0; font-size: 13px; }
+      .education-item p { margin: 0; font-size: 12px; }
+      .education-item .date { font-weight: 700; }
+      @media (max-width: 900px) { .toolbar, main { margin-left: 18px; margin-right: 18px; } }
+      @media (max-width: 600px) { main { padding: 28px 23px; } .job-head { display: block; } .job-head span { display: block; margin-bottom: 4px; } }
+      @media print { :root { background: white; } body { font-size: 10pt; line-height: 1.35; } .toolbar { display: none; } main { max-width: none; margin: 0; padding: 0; box-shadow: none; } header { padding-bottom: 10px; } section { margin-top: 14px; } .project { margin-top: 9px; break-inside: avoid; } li { margin-bottom: 3px; } h1 { font-size: 23pt; } h2 { font-size: 10pt; } h3 { font-size: 10pt; } a { color: inherit; text-decoration: none; } @page { size: A4; margin: 16mm 17mm; } }
+    </style>
+  </head>
+  <body>
+    <nav class="toolbar" aria-label="Résumé actions"><a href="index.html">← Back to portfolio</a><a class="download" href="Parag-Gulati-Backend-Engineer-Resume.pdf" download>Download PDF résumé ↓</a></nav>
+    <main>
+      <header>
+        <h1>Parag Gulati</h1>
+        <p class="headline">Backend Engineer | Go (Golang) | Microservices | REST APIs | Distributed Systems</p>
+        <p class="contact"><a href="mailto:paraggulati.dev@gmail.com">paraggulati.dev@gmail.com</a> | <a href="tel:+919217046606">+91 92170 46606</a> | <a href="https://www.linkedin.com/in/parag-gulati-9b6647208/">linkedin.com/in/parag-gulati-9b6647208</a> | <a href="https://github.com/parag9990">github.com/parag9990</a></p>
+      </header>
+      <section aria-labelledby="summary"><h2 id="summary">Professional Summary</h2><p>Backend Engineer with 3+ years of experience building and optimizing production Go (Golang) microservices and Gin-based REST APIs for OTT, CMS, sports/media, search, and cloud media processing platforms. Experienced in MySQL schema design, Redis caching, RabbitMQ asynchronous processing, Typesense and Elasticsearch search, Go pprof profiling, production debugging, and multi-cloud storage integrations.</p></section>
+      <section aria-labelledby="experience"><h2 id="experience">Professional Experience</h2><div class="job-head"><h3>Backend Engineer - Go (Golang) / Backend Microservices</h3><span>Dec 2022 - Mar 2026</span></div><p class="company">MultiTV Tech Solutions Pvt Ltd | Gurgaon, India</p>
+        <div class="project"><h3>Kutingg - OTT Platform</h3><ul><li>Designed and optimized Go and Gin REST APIs for Home, Content Listing, and Content Details modules supporting high-traffic OTT workloads.</li><li>Integrated and optimized Typesense content search, reducing search latency by approximately 40% and improving content discovery.</li><li>Used Go pprof and logs to investigate CPU, memory, and slow API execution paths and resolve production performance issues.</li></ul></div>
+        <div class="project"><h3>Momentus - Sports &amp; Media Backend Platform</h3><ul><li>Built Go microservices from scratch and designed MySQL schemas for sports and media workflows.</li><li>Developed secure Gin REST APIs for authentication, RBAC, match lifecycle, tournament management, and key-moment workflows.</li><li>Implemented Live/VOD scheduling and Aryshare social publishing; integrated RabbitMQ for asynchronous event processing and background jobs.</li></ul></div>
+        <div class="project"><h3>Art of Living - OTT Platform</h3><ul><li>Developed Go and Gin REST APIs for Playlist and Content Management modules.</li><li>Integrated Redis caching, Typesense search, and email notification workflows; used Go pprof to profile and optimize API performance.</li></ul></div>
+        <div class="project"><h3>Law &amp; Crime - OTT / News Search Platform</h3><ul><li>Implemented and optimized Typesense content search for OTT/news workloads, reducing search latency by approximately 30-40%.</li></ul></div>
+        <div class="project"><h3>Media-Morph - Cloud-Based AI Transcoding Platform</h3><ul><li>Built a cloud-agnostic Go backend for AI-based VOD transcoding with integrations across AWS, Azure, GCP, SFTP, and Akamai.</li><li>Designed Gin REST APIs for user management, project workflows, and template-based transcoding pipelines; modeled data in MySQL.</li><li>Integrated RabbitMQ asynchronous processing for transcoding pipeline orchestration and media input/output workflows.</li></ul></div>
+      </section>
+      <section aria-labelledby="skills"><h2 id="skills">Technical Skills</h2><p class="skill-row"><strong>Languages &amp; APIs:</strong> Go (Golang), JavaScript, Gin, RESTful APIs, gRPC, API Design, Swagger / OpenAPI</p><p class="skill-row"><strong>Architecture:</strong> Backend Microservices, Distributed Systems, Asynchronous Processing, Background Jobs</p><p class="skill-row"><strong>Data &amp; Search:</strong> MySQL, MongoDB, Redis, Typesense, Elasticsearch, Apache Solr, Schema Design, Query Optimization</p><p class="skill-row"><strong>Messaging &amp; Cloud:</strong> RabbitMQ, Docker, AWS EC2, Linux, AWS / Azure / GCP Storage, SFTP, Akamai</p><p class="skill-row"><strong>Performance &amp; Operations:</strong> Go pprof, Profiling, Logging, Metrics, PostHog, Production Debugging, Git, Bitbucket</p></section>
+      <section aria-labelledby="education"><h2 id="education">Education</h2><div class="education-item"><h3>Master of Computer Applications (MCA)</h3><p>Chandigarh University - Centre for Distance &amp; Online Education | <span class="date">Jul 2024 - Jul 2026</span></p></div><div class="education-item"><h3>Bachelor of Computer Applications (BCA)</h3><p>JEMTEC, Greater Noida - Guru Gobind Singh Indraprastha University | <span class="date">Aug 2018 - Jun 2021</span></p></div></section>
+    </main>
+  </body>
+</html>
